@@ -1,13 +1,15 @@
 # Тестовый проект для подключения к серверу по ssh
-
-на сервере (astra linux) лежит проект [LinuxMonitor](https://github.com/theun1c/LinuxMonitor). <br> 
+### Описание (кратко)
+На сервере (astra linux) лежит проект [LinuxMonitor](https://github.com/theun1c/LinuxMonitor). <br> 
 хранится он по следующему пути: <br>
 ``` bash
 /media/sf_main-astra/LinuxMonitor/LinuxMonitor/LinuxMonitor
 ```
 <br>
 необходимо средствами ssh подключения собрать и запустить проект с удаленного сервера, при этом получить данные из консоли. 
+<br>
 
+Пример подключения и получения данных консоли с использованием [SSH.NET](https://www.nuget.org/packages/SSH.NET/2025.0.0?_src=template)
 ``` csharp
  // нужно указать параметры 
  using (var client = new SshClient("ip", "username", "password"))
