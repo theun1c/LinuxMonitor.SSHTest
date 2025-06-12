@@ -1,6 +1,8 @@
 # Тестовый проект для подключения к серверу по ssh
 
-на сервере (astra linux) лежит проект [LinuxMonitor](https://github.com/theun1c/LinuxMonitor) . хранится он по следующему пути - "/media/sf_main-astra/LinuxMonitor/LinuxMonitor/LinuxMonitor" <br>
+на сервере (astra linux) лежит проект [LinuxMonitor](https://github.com/theun1c/LinuxMonitor). <br> 
+хранится он по следующему пути: <br>
+```bash "/media/sf_main-astra/LinuxMonitor/LinuxMonitor/LinuxMonitor``` <br>
 необходимо средствами ssh подключения собрать и запустить проект с удаленного сервера, при этом получить данные из консоли. 
 
 ``` csharp
